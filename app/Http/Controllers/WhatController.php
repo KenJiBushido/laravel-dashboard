@@ -18,17 +18,17 @@ class WhatController extends Controller
 
         }
 
-        $collection = collect([
-            ['product_id' => $data2, 'name' => 'Desk'],
-            ['product_id' => 'prod-200', 'name' => 'Chair'],
-        ]);
+        // $collection = collect([
+        //     ['product_id' => $data2, 'name' => 'Desk'],
+        //     ['product_id' => 'prod-200', 'name' => 'Chair'],
+        // ]);
         
-        $keyed = $collection->keyBy('name');
+        // $keyed = $collection->keyBy('name');
         
-        $keyed->all();
-        // dd($keyed->all());
+        // $keyed->all();
+        // // dd($keyed->all());
 
-        return view('what', compact('d2'));
+        // return view('what', compact('d2'));
 
     }
 

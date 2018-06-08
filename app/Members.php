@@ -13,5 +13,6 @@ class Members extends Model
         return $query->where('name', 'like', '%' .$s. '%')
                     ->orwhere('surname', 'like', '%' .$s. '%');
                     //->orwhere('surname', 'like', '%' .$s. '%');
+                    //
     }
 }

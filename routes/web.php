@@ -11,15 +11,15 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 // Route::get('/a', function () {
 //     return view('aaaaaaaa');
 // });
 
-Route::get('/', 'TestController@long');
+// Route::get('/', 'TestController@long');
 
 Auth::routes();
 
